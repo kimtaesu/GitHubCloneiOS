@@ -11,6 +11,8 @@
 		A564176E2BC4F86D934563DB /* Pods_GithubCloneiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEB3AC27B4B03F545AC2C42 /* Pods_GithubCloneiOS.framework */; };
 		B5E288DF9762B5FAF87BD373 /* Pods_GithubCloneiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD2E7797B360DF9B75C0A02 /* Pods_GithubCloneiOSTests.framework */; };
 		BD0E10B021A9675D00DDF617 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = BD0E10AF21A9675D00DDF617 /* .swiftlint.yml */; };
+		BD0E10B221A96C1C00DDF617 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = BD0E10B121A96C1C00DDF617 /* .travis.yml */; };
+		BD0E10B421A96CA400DDF617 /* codecov.yml  in Resources */ = {isa = PBXBuildFile; fileRef = BD0E10B321A96CA400DDF617 /* codecov.yml  */; };
 		BD98697821A95D83002FC9FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD98697721A95D83002FC9FE /* AppDelegate.swift */; };
 		BD98697A21A95D83002FC9FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD98697921A95D83002FC9FE /* ViewController.swift */; };
 		BD98697D21A95D83002FC9FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD98697B21A95D83002FC9FE /* Main.storyboard */; };
@@ -46,6 +48,8 @@
 		A1BF28B6481FE91FF57C934D /* Pods_GithubCloneiOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GithubCloneiOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7C5A671061176D79953A1AF /* Pods-GithubCloneiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubCloneiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-GithubCloneiOS/Pods-GithubCloneiOS.release.xcconfig"; sourceTree = "<group>"; };
 		BD0E10AF21A9675D00DDF617 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
+		BD0E10B121A96C1C00DDF617 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		BD0E10B321A96CA400DDF617 /* codecov.yml  */ = {isa = PBXFileReference; lastKnownFileType = text; path = "codecov.yml "; sourceTree = "<group>"; };
 		BD98697421A95D83002FC9FE /* GithubCloneiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubCloneiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD98697721A95D83002FC9FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD98697921A95D83002FC9FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +123,8 @@
 		BD98696B21A95D83002FC9FE = {
 			isa = PBXGroup;
 			children = (
+				BD0E10B321A96CA400DDF617 /* codecov.yml  */,
+				BD0E10B121A96C1C00DDF617 /* .travis.yml */,
 				BD0E10AF21A9675D00DDF617 /* .swiftlint.yml */,
 				BD98697621A95D83002FC9FE /* GithubCloneiOS */,
 				BD98698E21A95D85002FC9FE /* GithubCloneiOSTests */,
@@ -285,8 +291,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD0E10B221A96C1C00DDF617 /* .travis.yml in Resources */,
 				BD0E10B021A9675D00DDF617 /* .swiftlint.yml in Resources */,
 				BD98698521A95D85002FC9FE /* LaunchScreen.storyboard in Resources */,
+				BD0E10B421A96CA400DDF617 /* codecov.yml  in Resources */,
 				BD98698221A95D85002FC9FE /* Assets.xcassets in Resources */,
 				BD98697D21A95D83002FC9FE /* Main.storyboard in Resources */,
 			);
