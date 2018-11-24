@@ -5,7 +5,7 @@ branches:
   only:
     - master
     - develop
-
+    - feature/ci
 env:
   global:
     - WORKSPACE="GithubCloneiOS.xcworkspace"
