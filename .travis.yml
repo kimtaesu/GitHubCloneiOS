@@ -1,0 +1,33 @@
+osx_image: xcode10.1
+language: objective-c
+sudo: required
+branches:
+  only:
+    - master
+    - develop
+    - feature/ci
+env:
+  global:
+    - WORKSPACE="GithubCloneiOS.xcworkspace"
+    - SCHEME="GithubCloneiOS"
+  matrix:
+    - DESTINATION="platform=iOS Simulator,name=iPhone X,OS=12.1"
+
+install:
+  - gem install cocoapods
+
+before_script:
+  - set -o pipefail
+  - pod install --repo-update
+  - carthage update --cache-builds --platform iOS
+
+script:
+  - xcodebuild clean build test
+    -workspace "$WORKSPACE"
+    -scheme "$SCHEME"
+    -destination "$DESTINATION"
+    -configuration Debug
+    -enableCodeCoverage YES
+    CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO | xcpretty -c
+
+  - bash <(curl -s https://codecov.io/bash)
