@@ -13,6 +13,7 @@
 		BD0E10B021A9675D00DDF617 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = BD0E10AF21A9675D00DDF617 /* .swiftlint.yml */; };
 		BD0E10B221A96C1C00DDF617 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = BD0E10B121A96C1C00DDF617 /* .travis.yml */; };
 		BD0E10B421A96CA400DDF617 /* codecov.yml  in Resources */ = {isa = PBXBuildFile; fileRef = BD0E10B321A96CA400DDF617 /* codecov.yml  */; };
+		BD0E10B621A9797D00DDF617 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BD0E10B521A9797D00DDF617 /* README.md */; };
 		BD98697821A95D83002FC9FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD98697721A95D83002FC9FE /* AppDelegate.swift */; };
 		BD98697A21A95D83002FC9FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD98697921A95D83002FC9FE /* ViewController.swift */; };
 		BD98697D21A95D83002FC9FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD98697B21A95D83002FC9FE /* Main.storyboard */; };
@@ -50,6 +51,7 @@
 		BD0E10AF21A9675D00DDF617 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		BD0E10B121A96C1C00DDF617 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		BD0E10B321A96CA400DDF617 /* codecov.yml  */ = {isa = PBXFileReference; lastKnownFileType = text; path = "codecov.yml "; sourceTree = "<group>"; };
+		BD0E10B521A9797D00DDF617 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BD98697421A95D83002FC9FE /* GithubCloneiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubCloneiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD98697721A95D83002FC9FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD98697921A95D83002FC9FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 		BD98696B21A95D83002FC9FE = {
 			isa = PBXGroup;
 			children = (
+				BD0E10B521A9797D00DDF617 /* README.md */,
 				BD0E10B321A96CA400DDF617 /* codecov.yml  */,
 				BD0E10B121A96C1C00DDF617 /* .travis.yml */,
 				BD0E10AF21A9675D00DDF617 /* .swiftlint.yml */,
@@ -294,6 +297,7 @@
 				BD0E10B221A96C1C00DDF617 /* .travis.yml in Resources */,
 				BD0E10B021A9675D00DDF617 /* .swiftlint.yml in Resources */,
 				BD98698521A95D85002FC9FE /* LaunchScreen.storyboard in Resources */,
+				BD0E10B621A9797D00DDF617 /* README.md in Resources */,
 				BD0E10B421A96CA400DDF617 /* codecov.yml  in Resources */,
 				BD98698221A95D85002FC9FE /* Assets.xcassets in Resources */,
 				BD98697D21A95D83002FC9FE /* Main.storyboard in Resources */,
